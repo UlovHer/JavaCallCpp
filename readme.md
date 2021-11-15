@@ -5,7 +5,7 @@ JNI，全名 Java Native Interface，是Java本地接口，JNI是Java调用Nativ
 - Java程序中的函数可以调用Native语言写的函数，Native一般指的是C/C++编写的函数。
 - Native程序中的函数可以调用Java层的函数，也就是在C/C++程序中可以调用Java的函数。
 
-![](md_image/jni_step.png)
+![](./md_image/jni_step.png)
 
 ##### 1.1 JNI使用
 
@@ -86,9 +86,9 @@ JNIEXPORT void JNICALL Java_TestJNI_JNICallCpp_HellCpp
 
 ```
 
-![](md_image/jni_h.png)
+![](./md_image/jni_h.png)
 
-![jni_md](md_image/jni_md_h.png)
+![jni_md](./md_image/jni_md_h.png)
 
 
 
@@ -288,7 +288,7 @@ public class CallJNIFunc {
 
 JNA，全名Java Native Access是建立在JNI技术基础之上的一个Java类库，可以方便地使用java直接访问动态链接库中的函数。不需要使用JNI重写动态链接库文件，而是有直接调用的API，大大简化了工作量。JNA将自动实现Java接口到native function的映射，但是JNA一般只适用于较为简单的C/C++库，如果接口、数据结构复杂的话就不推荐。而且JNA也只提供了C/C++对Java的接口转化。
 
-![](md_image/jna_step.png)
+![](./md_image/jna_step.png)
 
 JNA使用一个小型的JNI库插桩程序来动态调用本地代码。开发者使用Java接口描述目标本地库的功能和结构，这使得它很容易利用本机平台的功能，而不会产生多平台配置和生成JNI代码的高开销。这样的性能、准确性和易用性显然受到很大的重视。
 
