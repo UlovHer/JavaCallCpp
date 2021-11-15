@@ -1,0 +1,7 @@
+﻿  InvokeJNIFunc.cpp
+     Creating library E:\CppProject\InvokeJNIFunc\Release\InvokeJNIFunc.lib and object E:\CppProject\InvokeJNIFunc\Release\InvokeJNIFunc.exp
+  Generating code
+  All 12 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  InvokeJNIFunc.vcxproj -> E:\CppProject\InvokeJNIFunc\Release\InvokeJNIFunc.dll
+  InvokeJNIFunc.vcxproj -> E:\CppProject\InvokeJNIFunc\Release\InvokeJNIFunc.pdb (Full PDB)
